@@ -36,7 +36,7 @@ fn name(){
 
 // learning tupple
 fn tupple(){
-    let person = ("Adedokun", "Faith", 25, "M", true);
+    let person: (&'static str, &'static str, i32, &'static str, bool) = ("Adedokun", "Faith", 25, "M", true);
     println!("introducing user First Name: {}, Last Name: {}, Age:{}, Gender: {}, Active:{}", person.0, person.1, person.2, person.3, person.4);
 }
 
