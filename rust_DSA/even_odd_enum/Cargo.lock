@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "err_handling"
+name = "even_odd_enum"
 version = "0.1.0"
